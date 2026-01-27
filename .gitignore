@@ -1,0 +1,5 @@
+challenges_spreadsheets/
+*.csv
+*.sql
+
+.env
