@@ -1,5 +1,6 @@
 challenges_spreadsheets/
-*.csv
+
 *.sql
+*.csv
 
 .env
