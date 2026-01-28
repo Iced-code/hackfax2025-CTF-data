@@ -29,3 +29,8 @@ tr {
 .difficulty-hard {
     background-color: rgb(255, 109, 109);
 }
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}

@@ -29,7 +29,8 @@ def get_tables():
 def get_table_data(table_name):
     cursor = conn.cursor(dictionary=True)
     #cursor.execute(f"SELECT * FROM {table_name}")
-    cursor.execute(f"SELECT * FROM {table_name} order by FIELD(Difficulty, 'Easy', 'Medium', 'Hard');")
+    cursor.execute(f"SELECT * FROM {table_name} ORDER BY Category, FIELD(Difficulty, 'Easy', 'Medium', 'Hard');")
+    # cursor.execute(f"SELECT * FROM {table_name} WHERE Difficulty = 'Easy';SELECT * FROM {table_name} WHERE Difficulty = 'Medium';")
 
     # cursor.execute(f"SELECT uuid, Challenge_Name, Category, Difficulty, Points, Attempts_Successful, Attempts_Fail FROM {table_name} ORDER BY Category, points;")
     rows = cursor.fetchall()

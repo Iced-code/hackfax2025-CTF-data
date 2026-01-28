@@ -76,9 +76,12 @@ def main() -> None:
                 if row.get("Challenge").strip() in diff_levels:
                     diff = diff_levels[row.get("Challenge").strip()]
 
-                category = row.get("Category").capitalize().strip()
+                category = string.capwords(row.get("Category")).strip()
+
                 if category == "Linux" or category == "Windows":
                     category = "VM_"+category
+                elif category == "Osint":
+                    category = category.upper()
 
                 values = f'''{uuid}, "{row.get("Challenge").strip()}", "{category}", {row.get("Points").strip()}, {diff}, {row.get("Successful Attempts").strip()}, {row.get("Failed Attempts").strip()}'''
                 
