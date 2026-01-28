@@ -27,6 +27,17 @@ function createTableFromJson(jsonData) {
     columns.forEach(col => {
       const td = document.createElement('td');
       td.innerHTML = item[col];
+
+      if(item[col] == "Easy"){
+        td.classList.add("difficulty-easy");
+      }
+      else if(item[col] == "Medium"){
+        td.classList.add("difficulty-medium");
+      }
+      else if(item[col] == "Hard"){
+        td.classList.add("difficulty-hard");
+      }
+
       dataRow.appendChild(td);
     });
     table.appendChild(dataRow);

@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from dotenv import load_dotenv
 import os
-
+import string
 
 load_dotenv()
 challenge_stats_csv = os.environ.get("CHALLENGE_STATS")
@@ -44,21 +44,22 @@ def get_challengeDifficulties() -> dict:
 
 
 def create_tableQuery() -> str:
-    s = f"DROP TABLE {table_name};\n\nCREATE TABLE {table_name} (\n"
+    query = f"DROP TABLE {table_name};\n\nCREATE TABLE {table_name} (\n"
+    
     for key, val in table_fields.items():
-        s += f"\t{key} {val}"
+        query += f"\t{key} {val}"
 
         if key != list(table_fields.keys())[-1]:
-            s += ","
+            query += ","
         
-        s += "\n"
-
-    s += ");"
+        query += "\n"
+    query += ");"
     
-    return s
+    return query
 
 def main() -> None:
     total_queries = 0
+
     with open("ctfChallengeStats_table.sql", "w") as sqlFile:
         sqlFile.write(create_tableQuery() + "\n\n")
 
@@ -84,7 +85,6 @@ def main() -> None:
                 sqlFile.write(f"INSERT INTO {table_name} ({", ".join(table_fields.keys())}) VALUES ({values});\n")
 
         sqlFile.write("\n\n")
-
 
         total_queries = uuid
 
