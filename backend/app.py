@@ -17,6 +17,10 @@ conn = mysql.connector.connect(
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def default_route():
+    return {"connected_to_database": conn.is_connected()}
+
 @app.route('/tables')
 def get_tables():
     cursor = conn.cursor()

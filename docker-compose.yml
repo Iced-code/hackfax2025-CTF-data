@@ -1,0 +1,30 @@
+version: "3.9"  # Docker Compose file format
+
+services:
+  db:   # MySQL database
+    image: mysql:8.0  
+    restart: always
+    environment:    # initializes MySQL on initial startup
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ctf_2025
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql  # persistent storage (allows database data to survive container restarts)
+
+  backend:  # Flask API
+    build: ./backend  # makes custom Docker image
+    ports:
+      - "5000:5000"
+    depends_on: # Makes it so MySQL starts before Flask
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      DB_NAME: challenges
+
+volumes:
+  db_data:
