@@ -60,7 +60,7 @@ def create_tableQuery() -> str:
 def main() -> None:
     total_queries = 0
 
-    with open("ctfChallengeStats_table.sql", "w") as sqlFile:
+    with open("database/ctfChallengeStats_table.sql", "w") as sqlFile:
         sqlFile.write(create_tableQuery() + "\n\n")
 
         with open(challenge_stats_csv, newline="", encoding="utf-8") as csvfile: 
