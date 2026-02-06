@@ -47,10 +47,18 @@ function createTableFromJson(jsonData) {
   container.appendChild(table);
 }
 
+function getQueryParams(){
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const isAscending = urlParams.get('isAscending');
+
+  return isAscending;
+}
+
 async function loadChallenges() {
-    const res = await fetch("http://127.0.0.1:5000/query/challenges");
-    const data = await res.json();
-    createTableFromJson(data);
+  const res = await fetch("http://127.0.0.1:5000/query/challenges");
+  const data = await res.json();
+  createTableFromJson(data);
 }
 
 loadChallenges();

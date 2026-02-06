@@ -6,6 +6,11 @@ body {
     background-color: #a9c5fc;
 }
 
+img {
+    width: 1138px;
+    height: 372px;
+}
+
 table, th, td {
     border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
@@ -32,9 +37,4 @@ tr {
 }
 .difficulty-hard {
     background-color: rgb(255, 109, 109);
-}
-
-.hide-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: 0;
 }
