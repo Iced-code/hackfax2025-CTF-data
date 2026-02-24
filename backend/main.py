@@ -82,6 +82,8 @@ def main() -> None:
                     category = "VM_"+category
                 elif category == "Osint":
                     category = category.upper()
+                elif category == "Cyber Principles/policy":
+                    category = "Cyber Principles/Policy"
 
                 values = f'''{uuid}, "{row.get("Challenge").strip()}", "{category}", {row.get("Points").strip()}, {diff}, {row.get("Successful Attempts").strip()}, {row.get("Failed Attempts").strip()}'''
                 

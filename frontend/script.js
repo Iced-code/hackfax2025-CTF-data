@@ -1,5 +1,4 @@
 
-// Step 2: Function to create the table
 function createTableFromJson(jsonData) {
   // Get the container element
   const container = document.getElementById('table-container');
@@ -8,9 +7,8 @@ function createTableFromJson(jsonData) {
   const table = document.createElement('table');
   
   // Get the keys from the first object to use as table headers
-  // const columns = Object.keys(jsonData[0]);
-  columns = ["Challenge_Name","Category","Difficulty","Points","Attempts_Fail","Attempts_Successful"]
-  // console.log(columns)
+  //const columns = Object.keys(jsonData[0]);
+  const columns = ["ID", "Challenge_Name","Category","Difficulty","Points","Attempts","Attempts_Successful","Attempts_Fail", "Success_Rate"]
 
   // Create table header row
   const headerRow = document.createElement('tr');
@@ -19,12 +17,58 @@ function createTableFromJson(jsonData) {
     th.innerHTML = col;
     headerRow.appendChild(th);
   });
+
   table.appendChild(headerRow);
 
+
+  let id = 1;
   // Create table body rows
   jsonData.forEach(item => {
     const dataRow = document.createElement('tr');
     columns.forEach(col => {
+      const td = document.createElement('td');
+      td.innerHTML = item[col];
+
+      if(col == "ID"){
+        td.innerHTML = id;
+        id+=1;
+      }
+
+      if((col === "Attempts_Successful") && item[col] === 0){
+        dataRow.style.color = "red";
+        td.style.fontWeight = "bold";
+      }
+
+      if(col === "Success_Rate"){
+        td.innerHTML += "%";
+
+        let r = parseInt(item[col]) / 100;
+        // td.style.backgroundColor = `rgb(${r * 255}, 255, ${r * 255})`;
+        td.style.backgroundColor = `rgb(${r * 245}, 255, ${r * 245})`;
+      }
+
+      if(item[col] == "Easy"){
+        td.classList.add("difficulty-easy");
+      }
+      else if(item[col] == "Medium"){
+        td.classList.add("difficulty-medium");
+      }
+      else if(item[col] == "Hard"){
+        td.classList.add("difficulty-hard");
+      }
+
+      if(col !== "Challenge_Name" || col !== "Category" ){
+        td.style.textAlign = "center"
+      }
+
+      dataRow.appendChild(td);
+    });
+    table.appendChild(dataRow);
+  });
+  /* jsonData.forEach(item => {
+    const dataRow = document.createElement('tr');
+    
+    for (const col in item) {
       const td = document.createElement('td');
       td.innerHTML = item[col];
 
@@ -39,9 +83,10 @@ function createTableFromJson(jsonData) {
       }
 
       dataRow.appendChild(td);
-    });
+    }
+    
     table.appendChild(dataRow);
-  });
+  }); */
 
   // Append the created table to the container
   container.appendChild(table);
@@ -62,6 +107,3 @@ async function loadChallenges() {
 }
 
 loadChallenges();
-
-// Call the function to generate the table
-// createTableFromJson(d);

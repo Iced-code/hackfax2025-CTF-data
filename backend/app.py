@@ -31,7 +31,12 @@ def get_tables():
 
 @app.route('/query/<table_name>')
 def get_table_data(table_name):
-    query = f"SELECT * FROM {table_name} ORDER BY Category, FIELD(Difficulty, 'Easy', 'Medium', 'Hard');"
+    # default query:
+    # query = f"SELECT * FROM {table_name} ORDER BY Category, FIELD(Difficulty, 'Easy', 'Medium', 'Hard');"
+    
+    query = f"SELECT Challenge_Name, Category, Difficulty, Points, Attempts_Successful, Attempts_Fail, (Attempts_Successful + Attempts_Fail) AS Attempts, IFNULL(ROUND(Attempts_Successful/(Attempts_Successful + Attempts_Fail) * 100.0, 2), 0) AS Success_Rate FROM {table_name} ORDER BY FIELD(Difficulty, 'Easy', 'Medium', 'Hard'), Success_Rate DESC, Attempts DESC;"
+
+    
     # query = f"SELECT * FROM {table_name} ORDER BY FIELD(Difficulty, 'Easy', 'Medium', 'Hard'), Category;"
     
     """ isAscending = request.args.get("isAscending")
