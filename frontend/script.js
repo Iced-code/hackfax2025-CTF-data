@@ -35,16 +35,15 @@ function createTableFromJson(jsonData) {
       }
 
       if((col === "Attempts_Successful") && item[col] === 0){
-        dataRow.style.color = "red";
-        td.style.fontWeight = "bold";
+        /* dataRow.style.color = "red"; */
+        dataRow.style.fontWeight = "bold";
       }
 
       if(col === "Success_Rate"){
         td.innerHTML += "%";
 
         let r = parseInt(item[col]) / 100;
-        // td.style.backgroundColor = `rgb(${r * 255}, 255, ${r * 255})`;
-        td.style.backgroundColor = `rgb(${r * 245}, 255, ${r * 245})`;
+        td.style.backgroundColor = `rgb(${(1-r) * 245}, 255, ${(1-r) * 245})`;
       }
 
       if(item[col] == "Easy"){
@@ -65,28 +64,6 @@ function createTableFromJson(jsonData) {
     });
     table.appendChild(dataRow);
   });
-  /* jsonData.forEach(item => {
-    const dataRow = document.createElement('tr');
-    
-    for (const col in item) {
-      const td = document.createElement('td');
-      td.innerHTML = item[col];
-
-      if(item[col] == "Easy"){
-        td.classList.add("difficulty-easy");
-      }
-      else if(item[col] == "Medium"){
-        td.classList.add("difficulty-medium");
-      }
-      else if(item[col] == "Hard"){
-        td.classList.add("difficulty-hard");
-      }
-
-      dataRow.appendChild(td);
-    }
-    
-    table.appendChild(dataRow);
-  }); */
 
   // Append the created table to the container
   container.appendChild(table);

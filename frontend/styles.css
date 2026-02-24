@@ -30,11 +30,14 @@ tr {
 }
 
 .difficulty-easy {
-    background-color: rgb(109, 255, 136);
+    /* background-color: rgb(109, 255, 136); */
+    color: green;
 }
 .difficulty-medium {
-    background-color: rgb(245, 255, 109);
+    /* background-color: rgb(245, 255, 109); */
+    color: rgb(234, 183, 55);
 }
 .difficulty-hard {
-    background-color: rgb(255, 109, 109);
+    /* background-color: rgb(255, 109, 109); */
+    color: red;
 }
