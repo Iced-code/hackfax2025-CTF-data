@@ -8,12 +8,12 @@ import json
 load_dotenv()
 mysql_pass = os.environ.get("MYSQL_PASSWORD")
 
-conn = mysql.connector.connect(
+""" conn = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
     password=mysql_pass,
     database="ctf_2025"
-)
+) """
 
 app = Flask(__name__)
 CORS(app)
