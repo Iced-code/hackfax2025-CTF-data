@@ -3,6 +3,7 @@ from flask_cors import CORS
 import mysql.connector
 from dotenv import load_dotenv
 import os
+import json
 
 load_dotenv()
 mysql_pass = os.environ.get("MYSQL_PASSWORD")
@@ -18,8 +19,14 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
-def default_route():
-    return {"connected_to_database": conn.is_connected()}
+def index():
+    return render_template("index.html")     # {"connected_to_database": conn.is_connected()}
+
+@app.route('/data')
+def get_data():
+    with open("database/queried_challenges.json") as f:
+        data = json.load(f)
+    return jsonify(data)
 
 @app.route('/tables')
 def get_tables():

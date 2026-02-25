@@ -1,0 +1,952 @@
+[
+  {
+    "Attempts": 2,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 2,
+    "Category": "Networking",
+    "Challenge_Name": "S.H.I.E.L.D",
+    "Difficulty": "Easy",
+    "Points": 225,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 2,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 2,
+    "Category": "Networking",
+    "Challenge_Name": "Peter Parker's New Home Network Setup",
+    "Difficulty": "Easy",
+    "Points": 225,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 1,
+    "Category": "Cloud",
+    "Challenge_Name": "Vision's Bucket Challenge",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Searching for Secrets",
+    "Difficulty": "Easy",
+    "Points": 225,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 16,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "Press Conference",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "93.75"
+  },
+  {
+    "Attempts": 16,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "Strange Sorcery",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "93.75"
+  },
+  {
+    "Attempts": 12,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 11,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "@therealhulk",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "91.67"
+  },
+  {
+    "Attempts": 9,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 8,
+    "Category": "VM_Linux",
+    "Challenge_Name": "Nick Fury's Hidden Intel",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "88.89"
+  },
+  {
+    "Attempts": 17,
+    "Attempts_Fail": 2,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "S.H.I.E.L.D Robbery",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "88.24"
+  },
+  {
+    "Attempts": 14,
+    "Attempts_Fail": 2,
+    "Attempts_Successful": 12,
+    "Category": "Case Studies",
+    "Challenge_Name": "Uncle Sam's Data Leak",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "85.71"
+  },
+  {
+    "Attempts": 17,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 14,
+    "Category": "Coding",
+    "Challenge_Name": "Red Skull's Bomb Attack",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "82.35"
+  },
+  {
+    "Attempts": 19,
+    "Attempts_Fail": 4,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "Stark Industries Test",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "78.95"
+  },
+  {
+    "Attempts": 20,
+    "Attempts_Fail": 5,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "Hank's Humor",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "75.00"
+  },
+  {
+    "Attempts": 13,
+    "Attempts_Fail": 5,
+    "Attempts_Successful": 8,
+    "Category": "Web",
+    "Challenge_Name": "The Marvel Character Encyclopedia",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "61.54"
+  },
+  {
+    "Attempts": 20,
+    "Attempts_Fail": 8,
+    "Attempts_Successful": 12,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Hulk Smash!",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "60.00"
+  },
+  {
+    "Attempts": 15,
+    "Attempts_Fail": 6,
+    "Attempts_Successful": 9,
+    "Category": "VM_Windows",
+    "Challenge_Name": "Canadian Superheroes",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "60.00"
+  },
+  {
+    "Attempts": 18,
+    "Attempts_Fail": 8,
+    "Attempts_Successful": 10,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Shielded Access",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "55.56"
+  },
+  {
+    "Attempts": 27,
+    "Attempts_Fail": 16,
+    "Attempts_Successful": 11,
+    "Category": "Coding",
+    "Challenge_Name": "Wakanda's Password",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "40.74"
+  },
+  {
+    "Attempts": 5,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 2,
+    "Category": "Networking",
+    "Challenge_Name": "Deadpool and Wolverine",
+    "Difficulty": "Easy",
+    "Points": 225,
+    "Success_Rate": "40.00"
+  },
+  {
+    "Attempts": 25,
+    "Attempts_Fail": 16,
+    "Attempts_Successful": 9,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Sticky Secrets",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "36.00"
+  },
+  {
+    "Attempts": 31,
+    "Attempts_Fail": 23,
+    "Attempts_Successful": 8,
+    "Category": "OSINT",
+    "Challenge_Name": "Galactic Coordinates: Terra Lockdown",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "25.81"
+  },
+  {
+    "Attempts": 30,
+    "Attempts_Fail": 23,
+    "Attempts_Successful": 7,
+    "Category": "VM_Linux",
+    "Challenge_Name": "Jarvis Interception",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "23.33"
+  },
+  {
+    "Attempts": 52,
+    "Attempts_Fail": 43,
+    "Attempts_Successful": 9,
+    "Category": "OSINT",
+    "Challenge_Name": "Multiversal Coordinates: Locate The Breach",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "17.31"
+  },
+  {
+    "Attempts": 64,
+    "Attempts_Fail": 54,
+    "Attempts_Successful": 10,
+    "Category": "Coding",
+    "Challenge_Name": "Hulk's Smash Force Analyzer",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "15.63"
+  },
+  {
+    "Attempts": 81,
+    "Attempts_Fail": 70,
+    "Attempts_Successful": 11,
+    "Category": "Case Studies",
+    "Challenge_Name": "The Russians are coming!",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "13.58"
+  },
+  {
+    "Attempts": 66,
+    "Attempts_Fail": 58,
+    "Attempts_Successful": 8,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Quarantine Mode Activated",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "12.12"
+  },
+  {
+    "Attempts": 80,
+    "Attempts_Fail": 74,
+    "Attempts_Successful": 6,
+    "Category": "OSINT",
+    "Challenge_Name": "Mutants Assemble",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "7.50"
+  },
+  {
+    "Attempts": 172,
+    "Attempts_Fail": 166,
+    "Attempts_Successful": 6,
+    "Category": "OSINT",
+    "Challenge_Name": "Spider-Sense Surveillance",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "3.49"
+  },
+  {
+    "Attempts": 146,
+    "Attempts_Fail": 141,
+    "Attempts_Successful": 5,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Vibranium Vault Insurance",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "3.42"
+  },
+  {
+    "Attempts": 94,
+    "Attempts_Fail": 94,
+    "Attempts_Successful": 0,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Veiled and Vulnerable",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 9,
+    "Attempts_Fail": 9,
+    "Attempts_Successful": 0,
+    "Category": "Cloud",
+    "Challenge_Name": "Infinity Stone Tech Support",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Cloud",
+    "Challenge_Name": "Iron Man's Azure Virtual-Verse",
+    "Difficulty": "Easy",
+    "Points": 150,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 8,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 8,
+    "Category": "VM_Linux",
+    "Challenge_Name": "Tony Stark's Blueprint",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Wanda's Network",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Pym Technologies Troubles",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "100.00"
+  },
+  {
+    "Attempts": 11,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 10,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Spider Man on TikTok?",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "90.91"
+  },
+  {
+    "Attempts": 10,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 9,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Loki, The God of Social Engineering",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "90.00"
+  },
+  {
+    "Attempts": 17,
+    "Attempts_Fail": 2,
+    "Attempts_Successful": 15,
+    "Category": "Cryptography",
+    "Challenge_Name": "Doom",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "88.24"
+  },
+  {
+    "Attempts": 15,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 12,
+    "Category": "Case Studies",
+    "Challenge_Name": "Hack the Tap",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "80.00"
+  },
+  {
+    "Attempts": 10,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 7,
+    "Category": "VM_Windows",
+    "Challenge_Name": "Reed Richard's Fantastic Four Suits",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "70.00"
+  },
+  {
+    "Attempts": 16,
+    "Attempts_Fail": 5,
+    "Attempts_Successful": 11,
+    "Category": "Cryptography",
+    "Challenge_Name": "Invincible Ultron",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "68.75"
+  },
+  {
+    "Attempts": 18,
+    "Attempts_Fail": 6,
+    "Attempts_Successful": 12,
+    "Category": "Case Studies",
+    "Challenge_Name": "Pipeline Plunder",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "66.67"
+  },
+  {
+    "Attempts": 12,
+    "Attempts_Fail": 4,
+    "Attempts_Successful": 8,
+    "Category": "Coding",
+    "Challenge_Name": "Nick Fury's Mission Analytics",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "66.67"
+  },
+  {
+    "Attempts": 18,
+    "Attempts_Fail": 8,
+    "Attempts_Successful": 10,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "X-Men: Rise of the Cyber Framework",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "55.56"
+  },
+  {
+    "Attempts": 2,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Oh No Otto",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "50.00"
+  },
+  {
+    "Attempts": 2,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Welcome to Wakanda!",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "50.00"
+  },
+  {
+    "Attempts": 23,
+    "Attempts_Fail": 12,
+    "Attempts_Successful": 11,
+    "Category": "Case Studies",
+    "Challenge_Name": "Kim Jong Un",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "47.83"
+  },
+  {
+    "Attempts": 21,
+    "Attempts_Fail": 11,
+    "Attempts_Successful": 10,
+    "Category": "VM_Windows",
+    "Challenge_Name": "Fantastic Four Foe's",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "47.62"
+  },
+  {
+    "Attempts": 22,
+    "Attempts_Fail": 13,
+    "Attempts_Successful": 9,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "SHIELD Breach",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "40.91"
+  },
+  {
+    "Attempts": 3,
+    "Attempts_Fail": 2,
+    "Attempts_Successful": 1,
+    "Category": "Networking",
+    "Challenge_Name": "Avengers Tower Link",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "33.33"
+  },
+  {
+    "Attempts": 29,
+    "Attempts_Fail": 20,
+    "Attempts_Successful": 9,
+    "Category": "Cryptography",
+    "Challenge_Name": "Mysterious Message",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "31.03"
+  },
+  {
+    "Attempts": 40,
+    "Attempts_Fail": 28,
+    "Attempts_Successful": 12,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Tony Stark is broke???",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "30.00"
+  },
+  {
+    "Attempts": 42,
+    "Attempts_Fail": 32,
+    "Attempts_Successful": 10,
+    "Category": "Case Studies",
+    "Challenge_Name": "Yahoo did that data breach?",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "23.81"
+  },
+  {
+    "Attempts": 55,
+    "Attempts_Fail": 43,
+    "Attempts_Successful": 12,
+    "Category": "OSINT",
+    "Challenge_Name": "Loki's Lost Encore",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "21.82"
+  },
+  {
+    "Attempts": 45,
+    "Attempts_Fail": 36,
+    "Attempts_Successful": 9,
+    "Category": "Case Studies",
+    "Challenge_Name": "Another Annoying Acronym?",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "20.00"
+  },
+  {
+    "Attempts": 10,
+    "Attempts_Fail": 8,
+    "Attempts_Successful": 2,
+    "Category": "Coding",
+    "Challenge_Name": "Unordinary Unibeam",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "20.00"
+  },
+  {
+    "Attempts": 38,
+    "Attempts_Fail": 31,
+    "Attempts_Successful": 7,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Logout? Never Heard of It",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "18.42"
+  },
+  {
+    "Attempts": 35,
+    "Attempts_Fail": 29,
+    "Attempts_Successful": 6,
+    "Category": "Cryptography",
+    "Challenge_Name": "Guardians Message",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "17.14"
+  },
+  {
+    "Attempts": 62,
+    "Attempts_Fail": 52,
+    "Attempts_Successful": 10,
+    "Category": "Cryptography",
+    "Challenge_Name": "Strongest Avenger",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "16.13"
+  },
+  {
+    "Attempts": 42,
+    "Attempts_Fail": 36,
+    "Attempts_Successful": 6,
+    "Category": "Coding",
+    "Challenge_Name": "Debunking Thanos's Invasion",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "14.29"
+  },
+  {
+    "Attempts": 22,
+    "Attempts_Fail": 20,
+    "Attempts_Successful": 2,
+    "Category": "Web",
+    "Challenge_Name": "Decrypt the Stark Protocol",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "9.09"
+  },
+  {
+    "Attempts": 58,
+    "Attempts_Fail": 53,
+    "Attempts_Successful": 5,
+    "Category": "Cryptography",
+    "Challenge_Name": "Guardians Message Pt. 2",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "8.62"
+  },
+  {
+    "Attempts": 55,
+    "Attempts_Fail": 52,
+    "Attempts_Successful": 3,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Loki's Network Infiltration",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "5.45"
+  },
+  {
+    "Attempts": 58,
+    "Attempts_Fail": 55,
+    "Attempts_Successful": 3,
+    "Category": "Web",
+    "Challenge_Name": "Ant-Man and the Wasp: Quantumania",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "5.17"
+  },
+  {
+    "Attempts": 136,
+    "Attempts_Fail": 129,
+    "Attempts_Successful": 7,
+    "Category": "OSINT",
+    "Challenge_Name": "X-Men: Hunt for Justice",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "5.15"
+  },
+  {
+    "Attempts": 164,
+    "Attempts_Fail": 156,
+    "Attempts_Successful": 8,
+    "Category": "Cryptography",
+    "Challenge_Name": "Galactic Interception",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "4.88"
+  },
+  {
+    "Attempts": 64,
+    "Attempts_Fail": 61,
+    "Attempts_Successful": 3,
+    "Category": "Cloud",
+    "Challenge_Name": "The Perfect Stone",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "4.69"
+  },
+  {
+    "Attempts": 193,
+    "Attempts_Fail": 186,
+    "Attempts_Successful": 7,
+    "Category": "OSINT",
+    "Challenge_Name": "Punisher's Pursuit: Unmask the Assassin",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "3.63"
+  },
+  {
+    "Attempts": 72,
+    "Attempts_Fail": 72,
+    "Attempts_Successful": 0,
+    "Category": "Coding",
+    "Challenge_Name": "Thor's Crackdown",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 9,
+    "Attempts_Fail": 9,
+    "Attempts_Successful": 0,
+    "Category": "Web",
+    "Challenge_Name": "Operation Lockdown",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 0,
+    "Category": "Networking",
+    "Challenge_Name": "Hide the Asgardian IP's",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Cloud",
+    "Challenge_Name": "Hulk's Last Stand",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Cloud",
+    "Challenge_Name": "Nick Fury's Last Stand",
+    "Difficulty": "Medium",
+    "Points": 275,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Networking",
+    "Challenge_Name": "Need backup to call backup",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Networking",
+    "Challenge_Name": "IronManVTY",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 0,
+    "Attempts_Fail": 0,
+    "Attempts_Successful": 0,
+    "Category": "Networking",
+    "Challenge_Name": "Pym Technologies Troubles Part 2",
+    "Difficulty": "Medium",
+    "Points": 415,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 9,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 8,
+    "Category": "VM_Windows",
+    "Challenge_Name": "Wanda's Reality Fracture",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "88.89"
+  },
+  {
+    "Attempts": 12,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 9,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Vibranium Security Protocol",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "75.00"
+  },
+  {
+    "Attempts": 18,
+    "Attempts_Fail": 8,
+    "Attempts_Successful": 10,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Detective Widow",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "55.56"
+  },
+  {
+    "Attempts": 19,
+    "Attempts_Fail": 9,
+    "Attempts_Successful": 10,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Operation Framework Fumble",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "52.63"
+  },
+  {
+    "Attempts": 28,
+    "Attempts_Fail": 15,
+    "Attempts_Successful": 13,
+    "Category": "Case Studies",
+    "Challenge_Name": "The Dynamic Duo?",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "46.43"
+  },
+  {
+    "Attempts": 17,
+    "Attempts_Fail": 10,
+    "Attempts_Successful": 7,
+    "Category": "Cryptography",
+    "Challenge_Name": "HYDRA Base",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "41.18"
+  },
+  {
+    "Attempts": 17,
+    "Attempts_Fail": 12,
+    "Attempts_Successful": 5,
+    "Category": "Coding",
+    "Challenge_Name": "Iron Man's Cryptic Codes",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "29.41"
+  },
+  {
+    "Attempts": 28,
+    "Attempts_Fail": 21,
+    "Attempts_Successful": 7,
+    "Category": "VM_Linux",
+    "Challenge_Name": "Spider-Man's Signal Intercept",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "25.00"
+  },
+  {
+    "Attempts": 33,
+    "Attempts_Fail": 27,
+    "Attempts_Successful": 6,
+    "Category": "Cryptography",
+    "Challenge_Name": "Wanda's Warped Words",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "18.18"
+  },
+  {
+    "Attempts": 54,
+    "Attempts_Fail": 46,
+    "Attempts_Successful": 8,
+    "Category": "Case Studies",
+    "Challenge_Name": "Annoying Acronyms",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "14.81"
+  },
+  {
+    "Attempts": 39,
+    "Attempts_Fail": 34,
+    "Attempts_Successful": 5,
+    "Category": "Cryptography",
+    "Challenge_Name": "Fantastic!",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "12.82"
+  },
+  {
+    "Attempts": 84,
+    "Attempts_Fail": 78,
+    "Attempts_Successful": 6,
+    "Category": "Cyber Principles/Policy",
+    "Challenge_Name": "Thats weird, thats strange...",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "7.14"
+  },
+  {
+    "Attempts": 23,
+    "Attempts_Fail": 22,
+    "Attempts_Successful": 1,
+    "Category": "Coding",
+    "Challenge_Name": "Bruce Banner's Beautiful Bunches",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "4.35"
+  },
+  {
+    "Attempts": 102,
+    "Attempts_Fail": 99,
+    "Attempts_Successful": 3,
+    "Category": "OSINT",
+    "Challenge_Name": "Operation: Cracking the Historical Cipher",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "2.94"
+  },
+  {
+    "Attempts": 73,
+    "Attempts_Fail": 71,
+    "Attempts_Successful": 2,
+    "Category": "Networking",
+    "Challenge_Name": "Ether Channel Assemble",
+    "Difficulty": "Hard",
+    "Points": 600,
+    "Success_Rate": "2.74"
+  },
+  {
+    "Attempts": 39,
+    "Attempts_Fail": 39,
+    "Attempts_Successful": 0,
+    "Category": "Coding",
+    "Challenge_Name": "Cyclops Circle",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 6,
+    "Attempts_Fail": 6,
+    "Attempts_Successful": 0,
+    "Category": "Cloud",
+    "Challenge_Name": "Captain Marvel's Venture",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 3,
+    "Attempts_Fail": 3,
+    "Attempts_Successful": 0,
+    "Category": "Web",
+    "Challenge_Name": "Prowler's Secret Database",
+    "Difficulty": "Hard",
+    "Points": 400,
+    "Success_Rate": "0.00"
+  },
+  {
+    "Attempts": 1,
+    "Attempts_Fail": 1,
+    "Attempts_Successful": 0,
+    "Category": "Networking",
+    "Challenge_Name": "Spiderman Into the OSPFverse",
+    "Difficulty": "Hard",
+    "Points": 600,
+    "Success_Rate": "0.00"
+  }
+]

@@ -1,4 +1,6 @@
 
+
+
 function createTableFromJson(jsonData) {
   // Get the container element
   const container = document.getElementById('table-container');
@@ -7,7 +9,6 @@ function createTableFromJson(jsonData) {
   const table = document.createElement('table');
   
   // Get the keys from the first object to use as table headers
-  //const columns = Object.keys(jsonData[0]);
   const columns = ["ID", "Challenge_Name","Category","Difficulty","Points","Attempts","Attempts_Successful","Attempts_Fail", "Success_Rate"]
 
   // Create table header row
@@ -56,7 +57,7 @@ function createTableFromJson(jsonData) {
         td.classList.add("difficulty-hard");
       }
 
-      if(col !== "Challenge_Name" || col !== "Category" ){
+      if(col !== "Challenge_Name" && col !== "Category" ){
         td.style.textAlign = "center"
       }
 
@@ -78,7 +79,7 @@ function getQueryParams(){
 }
 
 async function loadChallenges() {
-  const res = await fetch("http://127.0.0.1:5000/query/challenges");
+  const res = await fetch("http://127.0.0.1:5000/data"); // await fetch("http://127.0.0.1:5000/query/challenges");
   const data = await res.json();
   createTableFromJson(data);
 }
