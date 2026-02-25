@@ -80,7 +80,7 @@ function createTableFromJson(jsonData) {
 }
 
 async function loadChallenges() {
-  const res = await fetch("http://127.0.0.1:5000/data"); // await fetch("http://127.0.0.1:5000/query/challenges");
+  const res = await fetch("/data"); // await fetch("http://127.0.0.1:5000/query/challenges");
   const data = await res.json();
   createTableFromJson(data);
 }
