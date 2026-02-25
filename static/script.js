@@ -61,6 +61,15 @@ function createTableFromJson(jsonData) {
         td.style.textAlign = "center"
       }
 
+      /* td.onclick = function () {
+        if(td.style.color === "transparent"){
+          td.style.color = "initial";
+        }
+        else {
+          td.style.color = "transparent";
+        }
+      }; */
+
       dataRow.appendChild(td);
     });
     table.appendChild(dataRow);
@@ -68,14 +77,6 @@ function createTableFromJson(jsonData) {
 
   // Append the created table to the container
   container.appendChild(table);
-}
-
-function getQueryParams(){
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  const isAscending = urlParams.get('isAscending');
-
-  return isAscending;
 }
 
 async function loadChallenges() {
